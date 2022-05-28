@@ -9,3 +9,4 @@ if 0.0 <= counter <= 1:
 elif counter > 0:
     print(f"{name}, please wait for {counter} seconds.\n Thank you for your patience!")
 
+print(" ")
