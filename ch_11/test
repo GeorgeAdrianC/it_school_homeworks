@@ -1,0 +1,21 @@
+
+def palindrome_1():
+    n = input("Enter a 9 digit number: ")
+    lenght_n = len(n)
+
+    if lenght_n <= 9:
+        is_palindrome = True 
+        
+        for i in range(0, len(n) //2):
+            if n[i] != n[len(n) - i -1]:
+                is_palindrome = False
+        if is_palindrome == True:
+            print(f"{n} is a palindrome.")
+        elif is_palindrome == False:
+            print(f"{n} is not a palindrome.")
+    else:
+        print("Please enter a number of 9 digits or smallers.")        
+        
+    return n
+
+palindrome_1()

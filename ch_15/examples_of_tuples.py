@@ -1,0 +1,5 @@
+foo = (4, 5, 6, 6, 4, 4, 5)
+print(foo)
+print(foo[1])
+print(foo.index(6))
+print(foo.count(4))

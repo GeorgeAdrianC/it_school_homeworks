@@ -1,0 +1,26 @@
+from pathlib import Path
+
+zero_py = Path("C:/Users/georg/Documents/homework_paths/zero.py")
+zero_txt = Path("C:/Users/georg/Documents/homework_paths/zero.txt")
+
+one_py = Path("C:/Users/georg/Documents/homework_paths/one/oneone/one.py")
+one_txt = Path("C:/Users/georg/Documents/homework_paths/one/oneone/oneoneone/one.txt")
+
+two_py = Path("C:/Users/georg/Documents/homework_paths/two/twoone/two.py")
+two_txt = Path("C:/Users/georg/Documents/homework_paths/two/twotwo/two.txt")
+
+three_py = Path("C:/Users/georg/Documents/homework_paths/three/three.py")
+three_txt = Path("C:/Users/georg/Documents/homework_paths/three/three.txt")
+
+print(zero_py)
+print(zero_txt)
+
+print(one_py)
+print(one_txt)
+
+print(two_py)
+print(two_txt)
+
+print(three_txt)
+print(three_txt)
+
